@@ -1,7 +1,8 @@
 Dormeur
 =======
 
-*Still in prototyping phase*
+*Still in prototyping phase, see [Specifications canvas wiki section](https://github.com/oleiade/Dormeur/wiki/Specifications-Canvas) for more detail about
+Dormeur concept and it's implementation, and features*
 
 Restful webservices creation library built on top of flask.
 
