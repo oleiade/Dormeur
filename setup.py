@@ -25,6 +25,9 @@ setup(
 
     packages=[
         'dormeur',
+        'dormeur.request',
+        'dormeur.response',
+        'dormeur.resource',
     ],
     package_dir={'': '.'},
     zip_safe=True,
