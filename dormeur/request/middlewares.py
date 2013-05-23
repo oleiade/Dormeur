@@ -162,7 +162,9 @@ once the function has been executed.
         response.headers.add_header('Link', ', '.join(links))
 
         # Unset extra context page and per_page elems
-        extra_context.unset(['page', 'per_page', 'objects_count'])
+        extra_context.unset('page')
+        extra_context.unset('per_page')
+        extra_context.unset('objects_count')
 
         return response
 

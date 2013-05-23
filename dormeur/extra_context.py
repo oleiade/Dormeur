@@ -45,3 +45,6 @@ def set(key, value):
     value = value() if callable(value) else value
     setattr(g, key, value)
     return getattr(g, key)
+
+def unset(key):
+    return delattr(g, key) if hasattr(g, key) else None
